@@ -1,0 +1,20 @@
+.start-menu h1{
+  text-align: center;
+
+}
+.jumbotron{
+  background-image: url("../img/mistakes.jpg");
+
+}
+body{
+    background-image: url("../img/mistakes.jpg");
+
+}
+.player-console{
+  color:#03f12b
+
+}
+.start-menu {
+    color:#03f12b
+
+}
