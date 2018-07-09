@@ -16,6 +16,9 @@ Clone this repository
 Open a HTML file
 Open web browser of choice
 
+### Link
+https://allanlcomander.github.io/Pig-Dice/
+
 ## Technologies Used
 HTML
 CSS
