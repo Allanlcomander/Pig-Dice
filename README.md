@@ -12,9 +12,9 @@ If Player 1 rolls a 1, no score is added and round for Player 1 ends	| Roll = 1 
 Repeat for Player 2	| Roll = 1 |	Round total = 0 / Total score = 0 / Player 1 begins
 When a player's total score reaches 100 or more, game ends and winner page shows	|Player 1 total score = 100	| Winner page
 # Setup/Installation Requirements
-Clone this repository
-Open a HTML file
-Open web browser of choice
+1. Clone this repository
+2. Open a HTML file
+3. Open web browser of choice
 
 ### Link
 https://allanlcomander.github.io/Pig-Dice/
