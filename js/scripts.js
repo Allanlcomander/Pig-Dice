@@ -3,7 +3,7 @@ var player1="";
 var player2="";
 
 var throwdice = function () {
-  return Math.floor(6*Math.random())+1;
+  return Math.floor(Math.random()*6)+1;
 }
 
 function Player(turn) {
@@ -29,18 +29,18 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function () {
   this.totalscore += this.tempscore;
   this.tempscore = 0;
-  // this.changeturn();
+   this.changeturn();
   alert(this.playerName + ", your turn is over, pass the mouse!");
 }
 
 // // changing turn
-// Player.prototype.changeturn = function () {
-//   if (this.roll ===1) {
-//     this.turn = false;
-//   } else {
-//     this.turn = true;
-//   }
-// }
+Player.prototype.changeturn = function () {
+  if (this.roll === 1) {
+    this.turn = false;
+  } else {
+    this.turn = true;
+  }
+ }
 // check for 100
 Player.prototype.winnerCheck = function () {
   if (this.totalscore >= 100) {
