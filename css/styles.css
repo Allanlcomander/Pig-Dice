@@ -1,5 +1,6 @@
 .start-menu h1{
   text-align: center;
+font-style:justify;
 
 }
 .jumbotron{
@@ -11,7 +12,8 @@ body{
 
 }
 .player-console{
-  color:#03f12b
+  color:#03f12b;
+  display: none;
 
 }
 .start-menu {
